@@ -71,10 +71,6 @@ class Solution:
                     dup_map_3[board[first][second]] -= 1
 
             for second in range(3,6):
-                print("first")
-                print(first)
-                print(board[first])
-                print(board[first][second])
 
                 if board[first][second] != '.':
                     dup_map_4[board[first][second]] -= 1
@@ -82,8 +78,6 @@ class Solution:
             for second in range(6,9):
                 if board[first][second] != '.':
                     dup_map_5[board[first][second]] -= 1
-
-        print(dup_map_4)
 
         if not check_map_value(dup_map_3):
             return False
