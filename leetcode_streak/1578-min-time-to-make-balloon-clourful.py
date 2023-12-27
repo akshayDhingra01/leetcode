@@ -1,5 +1,6 @@
 # https://leetcode.com/problems/minimum-time-to-make-rope-colorful/
 
+# https://leetcode.com/problems/minimum-time-to-make-rope-colorful/solutions/4467168/time-o-n-python-easy-approach-explained/
 
 # First Solution: Time O(N) || Space O(N) || Dict
 class Solution:
