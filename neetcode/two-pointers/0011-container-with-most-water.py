@@ -1,7 +1,7 @@
 # https://leetcode.com/problems/container-with-most-water/
 
 
-# First Solution 
+# First Solution || Time O(N) || Space O(1) || Two Pointer
 
 class Solution:
     def maxArea(self, height: List[int]) -> int:
@@ -28,3 +28,22 @@ class Solution:
                 last_pointer -= 1
         
         return max_area
+    
+
+
+    # Concise Solution
+    
+    class Solution:
+        def maxArea(self, height: List[int]) -> int:
+            start_pointer = 0
+            last_pointer = len(height) - 1
+            max_area = 0
+
+            while last_pointer > start_pointer:
+                max_area = max( max_area ,  min(height[start_pointer] , height[last_pointer] )  *  (last_pointer - start_pointer) )
+                if height[start_pointer] < height[last_pointer]:                
+                    start_pointer += 1
+                else:
+                    last_pointer -= 1
+            
+            return max_area
