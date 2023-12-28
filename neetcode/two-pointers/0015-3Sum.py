@@ -1,6 +1,8 @@
 # https://leetcode.com/problems/3sum/
 
 
+# Optimized Solution: Time O(N2) || Space O(N) || Two Pointers 
+
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         
