@@ -1,5 +1,8 @@
 # https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 
+
+# Optimized Solution || Time O(N) || Space O(1) || Two Pointers || Sliding window
+
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
 
