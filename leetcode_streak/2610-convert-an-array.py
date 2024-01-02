@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/description/?envType=daily-question&envId=2024-01-02
+
 class Solution:
     def findMatrix(self, nums: List[int]) -> List[List[int]]:
         hash_map = {}
