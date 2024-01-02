@@ -1,5 +1,7 @@
 # https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/description/?envType=daily-question&envId=2024-01-02
 
+# First Approach || Dict or HashMap || Time O(N2) || Space O(N)
+
 class Solution:
     def findMatrix(self, nums: List[int]) -> List[List[int]]:
         hash_map = {}
@@ -19,8 +21,6 @@ class Solution:
                 else:
                     res[i].append(key)
         return res 
-
-
 
 
 
