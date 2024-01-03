@@ -1,3 +1,5 @@
+# First Approach and Best Solution || Greedy || Time O(N*M) || Space O(1) || Best Solution
+
 class Solution:
     def numberOfBeams(self, bank: List[str]) -> int:
         res_beams = 0
