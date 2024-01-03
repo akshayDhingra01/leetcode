@@ -1,5 +1,7 @@
 # https://leetcode.com/problems/longest-substring-without-repeating-characters
 
+# Optimized Solution || Time O(N) || Space O(N) || Two Pointers || Sliding window
+
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         charSet = set()
