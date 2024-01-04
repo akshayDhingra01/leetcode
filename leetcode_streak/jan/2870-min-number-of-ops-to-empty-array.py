@@ -1,5 +1,7 @@
 # https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/?envType=daily-question&envId=2024-01-04
 
+# First Solution: Time O(N) || Space O(N) || Dict
+
 class Solution:
     def minOperations(self, nums: List[int]) -> int:
         hash_map = {}
