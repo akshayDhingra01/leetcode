@@ -26,3 +26,22 @@ class Solution:
                 number_of_operations += (value // 3) + 1
         
         return int(number_of_operations)
+    
+
+    class Solution:
+        def minOperations(self, nums: List[int]) -> int:
+            hash_map = {}
+            for number in nums:
+                if number in hash_map.keys():
+                    hash_map[number] += 1
+                else:
+                    hash_map[number] = 1
+                
+            number_of_operations = 0
+
+            for value in hash_map.values():
+                if value == 1:
+                    return -1
+                number_of_operations += ceil(value / 3)
+            
+            return int(number_of_operations)
