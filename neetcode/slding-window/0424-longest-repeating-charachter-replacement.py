@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/longest-repeating-character-replacement/
+
 # First Solution || Time O(N2) || Space O(1) || Two Pointers || Sliding window
 
 class Solution:
