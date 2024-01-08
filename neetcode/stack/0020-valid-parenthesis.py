@@ -1,5 +1,7 @@
 # https://leetcode.com/problems/valid-parentheses/
 
+# Optimized Solution || Time O(N) || Space O(N) || Stack || HashMap
+
 class Solution:
     def isValid(self, s: str) -> bool:
         bracs_dict = {
