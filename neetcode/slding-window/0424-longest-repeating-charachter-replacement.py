@@ -1,4 +1,4 @@
-
+# First Solution || Time O(N2) || Space O(1) || Two Pointers || Sliding window
 
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
