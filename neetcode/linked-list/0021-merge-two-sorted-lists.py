@@ -1,5 +1,7 @@
 # https://leetcode.com/problems/merge-two-sorted-lists/
 
+# First Optimized Solution || Time O(N) || Space O(1) || Linked List
+
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
         curr1 = list1
