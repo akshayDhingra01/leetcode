@@ -1,5 +1,7 @@
 # https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 
+# Optimized Solution || Time O(N) || Space O(1) || Linked List || Two Pointers
+
 class Solution:
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:        
         slow, fast = head, head
