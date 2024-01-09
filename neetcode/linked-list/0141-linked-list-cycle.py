@@ -1,3 +1,5 @@
+# Optimized Solution || Time O(N) || Space O(1) || Linked List || Two Pointers
+
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
         slow, fast = head, head
