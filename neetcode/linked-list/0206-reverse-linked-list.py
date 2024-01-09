@@ -20,3 +20,19 @@ class Solution:
 
         curr.next = previousNode
         return curr
+
+
+
+
+class Solution:
+    def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+
+        previousNode = None
+        curr = head
+        while curr != None:
+            newCurr = curr.next
+            curr.next = previousNode
+            previousNode = curr
+            curr = newCurr
+        return previousNode
+
